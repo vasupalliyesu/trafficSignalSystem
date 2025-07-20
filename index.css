@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trafficSignalsSystem {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signals {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(68, 66, 66);
+}
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color:rgba(226, 211, 211, 0.5);
+}
+/* 
+.red:hover {
+    background-color: red;
+}
+
+.yellow:hover {
+    background-color: yellow;
+}
+
+.green:hover {
+    background-color: rgb(79, 226, 35);   removing hover method to the lights
+} */
+
+button {
+    width: 80px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.btnRed {
+    background-color: red;
+}
+
+.btnYellow {
+    background-color: Yellow;
+}
+.btnGreen {
+    background-color: greenyellow;
+}
